@@ -25,7 +25,11 @@ namespace vadaszDenes
 
         private void txtRoverName_TextChanged(object sender, TextChangedEventArgs e)
         {
-            Rover rover = new Rover("dezso");
+
+        }
+
+        private void btnMapUpload_Click(object sender, RoutedEventArgs e)
+        {
 
             
         }
