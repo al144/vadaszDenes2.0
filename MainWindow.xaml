@@ -8,9 +8,9 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <TextBlock HorizontalAlignment="Left" Margin="34,19,0,0" TextWrapping="Wrap" Text="Name:" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtRoverName" HorizontalAlignment="Left" Margin="84,19,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextChanged="txtRoverName_TextChanged" />
+        <TextBox x:Name="txtRoverName" HorizontalAlignment="Left" Margin="84,19,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
         <Button x:Name="btnMapUpload" Content="Upload" HorizontalAlignment="Left" Margin="202,146,0,0" VerticalAlignment="Top" Click="btnMapUpload_Click"/>
-        <Label x:Name="tbMapFile" HorizontalAlignment="Left" Margin="259,148,0,0" Content="alma" VerticalAlignment="Top"/>
+        <Label x:Name="tbMapFile" HorizontalAlignment="Left" Margin="263,143,0,0" Content="No file selected" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>
